@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/1026px-PokC3A9_Ball_icon.png?v=1647510985307">
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>The Sound Memory Game!</h1>
+
+    <p>
+      Welcome to my game hope you enjoy it!!
+    <button id= "startBtn" onclick="startgame()">
+      Start
+    </button>
+      <button id= "stopBtn" class="hidden" onclick="stopgame()">
+        Stop
+      </button>
+      
+      <p id="clock">Time Remaining: </p>
+      
+      <div>
+        <div id="gameButtonArea">
+          <button id = "button1" onclick = "guess(1)" onmousedown = "startTone(1)" onmouseup = "stopTone()"><img src = "https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/xatu.png?v=1647324903684" hidden alt = "Xatu"><audio id="xatu" src="https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/xatu.mp3?v=1647325570135"></audio></button>
+          <button id = "button2" onclick = "guess(2)" onmousedown = "startTone(2)" onmouseup = "stopTone()"><img src = "https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/202.png?v=1647339002166" hidden alt = "wubba"><audio id="wubba" src="https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/wubba.mp3?v=1647338728794"></audio></button>
+          <button id = "button3" onclick = "guess(3)" onmousedown = "startTone(3)" onmouseup = "stopTone()"><img src = "https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/311Plusle_AG_anime_6.webp?v=1647329436024" hidden alt = "Plusle"><audio id="plusle" src="https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/plusle.mp3?v=1647325557303"></audio></button>
+          <button id = "button4" onclick = "guess(4)" onmousedown = "startTone(4)" onmouseup = "stopTone()"><img src = "https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/Pikachu.png?v=1647324689741" hidden alt = "Pikachu"><audio id="pikachu" src="https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/pikachu.mp3?v=1647325562568"></audio></button>
+          <button id = "button5" onclick = "guess(5)" onmousedown = "startTone(5)" onmouseup = "stopTone()"><img src = "https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/chimchar.png?v=1647324706216" hidden alt = "Chimchar"><audio id="chimchar" src="https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/chimchar.mp3?v=1647325575444"></audio></button>
+        </div>
+    </div>
+
+      
+    </p>
+
+   
+  </body>
+</html>

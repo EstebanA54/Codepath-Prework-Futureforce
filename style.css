@@ -1,0 +1,79 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/cute-minimalist%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-achip.jpg?v=1647340133580);
+  color:white;
+}
+
+h1 {
+  font-family: verdana,arial, sans-serif;
+  
+  
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+#gameButtonArea > button{
+  width:200px;
+  height:200px;
+  margin:2px;
+    
+}
+
+.hidden{
+  display: none;
+}
+
+#button1{
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit{
+  background-image:url("https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/xatu.png?v=1647324903684");
+  background-size:200px,200px;
+}
+
+#button2{
+  background: lightblue;
+}
+
+#button2:active, #button2.lit{
+  background-image:url("https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/202.png?v=1647339002166");
+  background-size:200px,200px;
+}
+
+#button3{
+  background: pink;
+}
+
+#button3:active, #button3.lit{
+  background-image:url("https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/311Plusle_AG_anime_6.webp?v=1647329436024");
+  background-size:200px,200px;
+}
+
+#button4{
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit{
+  background-image:url("https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/Pikachu.png?v=1647324689741");
+  background-size:200px,200px;
+}
+
+#button5{
+  background: lightsalmon;
+}
+
+#button5:active, #button5.lit{
+  background-image:url("https://cdn.glitch.global/f43134ab-4be0-4fc6-acbd-5117b9b85dec/chimchar.png?v=1647324706216");
+  background-size:200px,200px;
+}
+
+
+
